@@ -1,0 +1,85 @@
+
+document.write('Yorman Morillo');
+  document.write('<br>');
+  document.write('19');
+   
+        let nombre = 'Yorman';
+        let sueldo = 3500;
+        document.write(nombre);
+        document.write('<br>');
+        document.write(sueldo);
+    
+        let usuario;
+        let mail;
+        usuario = prompt('Ingrese el nombre de usuario:');
+        mail = prompt('Ingrese el mail:');
+        document.write('Nombre de usuario ingresado:');
+        document.write(usuario);
+        document.write('<br>');
+        document.write('Mail ingresado:');
+        document.write('<br>');
+        document.write(mail);
+    
+        let lado;
+        lado = prompt('Ingrese medida del lado:');
+        var perimetro;
+        perimetro = parseInt(lado) * 4;
+        document.write('Su perímetro es:');
+        document.write('<br>');
+        document.write(perimetro);
+   
+
+        let num1;
+        let num2;
+        let num3;
+        let num4;
+        num1 = prompt('Ingrese primer valor:');
+        num2 = prompt('Ingrese segundo valor:');
+        num3 = prompt('Ingrese tercer valor:');
+        num4 = prompt('Ingrese cuarto valor:');
+        let suma;
+        suma = parseInt(num1) + parseInt(num2);
+        let producto;
+        producto = parseInt(num3) * parseInt(num4);
+        document.write('La suma de los dos primeros valores es:');
+        document.write('<br>');
+        document.write(suma);
+        document.write('<br>');
+        document.write('El producto del tercer y cuarto valor es:');
+        document.write('<br>');
+        document.write(producto);
+
+        document.write('<br>');
+        let num5;
+        let num6;
+        let num7;
+        let num8;
+        num5 = prompt('Ingrese primer valor:');
+        num6 = prompt('Ingrese segundo valor:');
+        num7 = prompt('Ingrese tercer valor:');
+        num8 = prompt('Ingrese cuarto valor:');
+        let sum;
+        sum = parseInt(num5) + parseInt(num6) + parseInt(num7) + parseInt(num8);
+        let produc;
+        produc = parseInt(num5) * parseInt(num6) * parseInt(num7) * parseInt(num8);
+        document.write('La suma de los cuatro valores es:');
+        document.write(sum);
+        document.write('<br>');
+        document.write('El producto de los cuatro valor es:');
+        document.write('<br>');
+        document.write(produc);
+        let precio;
+        let cantidad;
+        precio = prompt('Ingrese precio del artículo');
+        cantidad = prompt('Ingrese la cantidad de artículos a llevar:');
+        let importe;
+        importe = parseInt(precio) * parseInt(cantidad);
+        document.write('El Precio es :');
+        document.write(precio);
+        document.write('<br>');
+        document.write('los articulos son:');
+        document.write(cantidad);
+        document.write('<br>');
+        document.write('Debe abonar:');
+        document.write('<br>');
+        document.write(importe);
